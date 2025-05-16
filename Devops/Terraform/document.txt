@@ -1,0 +1,25 @@
+#automate kuberenetes cluster deployement on aws using terraform 
+
+#implementation steps
+1- setup terraform 
+2- configure aws provider
+3- create VPC
+   - add public subnet 
+   - add private subnet 
+   - add internet gateway
+   - add route table 
+4- create EKS cluster
+5- setup IAM roles and policies (required for EKS )
+6- Apply terraform configuration
+   - validate configuration
+   - terraform plan
+   - terraform apply 
+7- configure kubectl
+8- deploy sample application
+   -create deployement YAML file 
+   -apply deployement
+   -exapose application using service 
+   - apply service
+   -access the application vai load balancer url
+
+#https://registry.terraform.io/modules/terraform-aws-modules/eks/aws/latest/submodules/eks-managed-node-group
