@@ -3,7 +3,7 @@ from db_config import getConnection
 def getUsers():
     conn=getConnection()
     cursor = conn.cursor(dictionary=True)
-    cursor.execute("select * from users")
+    cursor.execute("select * from employee")
     users = cursor.fetchall()
     cursor.close()
     conn.close()
@@ -15,7 +15,7 @@ def getUsers():
 def updateUser():
     conn=getConnection()
     cursor = conn.cursor(dictionary=True)
-    cursor.execute("update users set name='akshay' where id=1")
+    cursor.execute("update employee set first_name='shruti' where employee_id=1 ")
     conn.commit()
     cursor.close()
     conn.close()
