@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 apiVersion: v1
 kind: Service
 metadata:
@@ -10,3 +11,17 @@ spec:
       port: 80
       targetPort: 80
   type: LoadBalancer
+=======
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-service
+spec:
+  selector:
+    app: nginx
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  type: LoadBalancer
+>>>>>>> e3c1d965699b0c4f4860543bea638f73d9954c75
