@@ -8,7 +8,7 @@ app = FastAPI()
 
 def get_db():
     db = database.SessionLocal()
-    try:
+    try:  
         yield db
     finally:
         db.close()
