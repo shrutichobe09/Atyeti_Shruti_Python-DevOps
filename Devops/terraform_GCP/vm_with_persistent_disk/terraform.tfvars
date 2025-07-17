@@ -1,0 +1,6 @@
+project_id       = "your-project-id"
+region           = "us-central1"
+zone             = "us-central1-a"
+network          = "default"
+subnetwork       = "default"
+public_key_path  = "id_rsa.pub"
