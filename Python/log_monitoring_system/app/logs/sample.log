@@ -1,0 +1,16 @@
+2025-07-22 09:01:00 INFO System started
+2025-07-22 09:02:00 ERROR DB connection failed
+2025-07-22 09:03:00 ERROR Timeout reached
+2025-07-22 09:04:00 ERROR Retry limit exceeded
+2025-07-22 09:05:00 WARNING Memory usage high
+2025-07-22 10:30:01 INFO Starting backup process
+2025-07-22 10:30:05 WARNING Disk usage at 85%
+2025-07-22 10:30:07 ERROR Failed to connect to database
+2025-07-22 10:30:10 INFO Retrying connection
+2025-07-22 10:30:12 ERROR Timeout while connecting to database
+2025-07-22 10:30:15 WARNING CPU usage high
+2025-07-22 10:30:18 ERROR Retry limit exceeded
+2025-07-22 10:30:20 INFO Sending notification
+2025-07-22 10:30:22 ERROR Failed to send notification
+2025-07-22 10:30:20 INFO Sending notification
+2025-07-22 10:30:22 ERROR Failed to send notification
