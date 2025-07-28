@@ -71,8 +71,6 @@ def send_notification(recipient, urgency="normal", *messages, **metadata):
     print("=" * 50)
 
 
-# calls the function
-
 # DevOps Team - high urgency with multiple messages
 send_notification(
     "devops@company.com",
