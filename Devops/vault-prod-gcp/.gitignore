@@ -1,0 +1,17 @@
+# Ignore Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore .terraform directory (contains provider plugins and local cache)
+.terraform/
+
+# Ignore Terraform lock file (optional, depends on team practice)
+.terraform.lock.hcl
+
+# Ignore TLS certificates or secrets (usually sensitive)
+tls/
+
+# Optional: ignore shell script output or temporary files
+*.log
+*.bak
+*.tmp
